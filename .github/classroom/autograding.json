@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "containsThe",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testContainsThe",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "countABC",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testCountABC",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "isPalindromoe",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testIsPalindrome",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

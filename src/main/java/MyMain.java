@@ -33,7 +33,7 @@ public class MyMain {
     public static boolean isPalindrome(String str) {
         int len = str.length();
         int re = 0;
-        for (int i = 0; i < (len/2-1); i++) {
+        for (int i = 0; i <= (len/2-1); i++) {
             char len1 = str.charAt(i);
             char len2 = str.charAt(len - i - 1);
             if (len1 != len2) {
